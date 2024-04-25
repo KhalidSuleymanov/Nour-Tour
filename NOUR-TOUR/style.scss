@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#elibrary {
+    .big-elibrary-sect {
+        background-image: url(https://getmasum.com/html-preview/nour/assets/img/bg/client-bg.png);
+    }
+}
+
+#contact {
+    .info {
+        border: none;
+
+        &:focus {
+            outline: 1px solid #6168FF;
+        }
+    }
+
+    .opinion {
+        border: none;
+
+        &:focus {
+            outline: 1px solid #6168FF;
+        }
+    }
+
+    .textarea {
+        border: none;
+
+        &:focus {
+            outline: 1px solid #6168FF;
+        }
+    }
+
+    .btn {
+        &:hover {
+            background-color: #0e0e3d;
+        }
+    }
+}
+
+#footer {
+    padding-top: 8rem;
+
+    .footer1 {
+        padding: 260px 0 40px;
+        background-color: #00102A;
+        color: #fff;
+        clip-path: polygon(0 250px, 100% 0, 100% 100%, 0% 100%);
+
+        .logopart {
+            margin-bottom: 10px;
+        }
+    }
+
+    .logopart>img {
+        width: 50%;
+        padding-top: 2.5rem;
+        margin-left: 0.5rem;
+    }
+
+    .footerpart1 {
+        padding-left: 12px;
+        padding-top: 20px;
+
+
+        a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+
+    }
+
+    .footertext :nth-child(1) {
+        font-family: sans-serif;
+        font-weight: bold;
+
+    }
+
+    .footertext {
+        padding: 35px 0px;
+
+        a {
+            text-decoration: none;
+            color: rgb(231, 230, 230);
+            font-size: 14px;
+        }
+
+        a:hover {
+            color: #6168FF;
+            transition: .5s;
+        }
+    }
+
+    .subscribefooter {
+        padding: 10px 35px;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .btn {
+        padding: 15px 30px;
+        color: rgb(231, 230, 230);
+        border: none;
+        background-color: #6168FF;
+
+        .btn>span {
+            padding: 5px;
+            font-family: sans-serif;
+        }
+
+        &:hover {
+            background-color: #fff;
+            color: #141313;
+        }
+    }
+
+}
+
+.borderbottom {
+    border-bottom: 1px solid rgb(108, 107, 107);
+}
+
+.links a {
+    margin: 0px 10px;
+    font-size: 20px;
+    padding-left: 0.7rem;
+    overflow: hidden;
+    transition: 1s;
+
+    &:hover .links {
+        background-color: #fff;
+    }
+}
